@@ -1,9 +1,9 @@
 num1 = int(input("Enter the first number: "))
 num2 = int(input("Enter the second number: "))
-user_sign = input("Choose the operation (+, -, *, /): ")
+sign = input("Choose the operation (+, -, *, /): ")
 
 
-match user_sign:
+match sign:
     case "+":
         result = num1 + num2
         print(f"The result is {result}.")

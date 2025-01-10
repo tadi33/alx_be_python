@@ -25,4 +25,4 @@ elif temp_mesurment == "C":
     result = convert_to_fahrenheit(temp_value)
     print(f"{temp_value}°C is {result}")
 else:
-    print("Invalid temperature measurement. Please enter 'C' or 'F'.")
+    print("Invalid temperature. Please enter a numeric value.")
